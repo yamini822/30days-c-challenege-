@@ -1,0 +1,13 @@
+1. Start
+2. Set count, total and the Small, Medium, Large counts and totals to
+3. Read an expense amount
+4. If amount < 0, display an error and do not count it
+5. Else if amount > 0, add 1 to count and add amount to total
+6. If amount < 100, update Small count and total
+7. Else if amount < 500, update Medium count and total
+8. Else update Large count and total
+9. Repeat from step 3 while amount is not 0
+10. If count = 0, display “No valid expenses entered”
+11. Else display count, total, category counts and totals, average =
+total ÷ count
+12. Stop
